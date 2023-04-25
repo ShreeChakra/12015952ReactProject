@@ -1,0 +1,38 @@
+.cardsContainer {
+  display: flex;
+  display: inline-block;
+  flex-direction: row;
+  padding: 10px;
+}
+.cardImg {
+  height: 200px;
+  border-radius: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 400px;
+  border: 3px solid #e05504;
+  border-radius: 5px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: 600;
+  height: 40px;
+  padding: 10px;
+}
+.addBtn {
+  background-color: #dc631d;
+  color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contents {
+  height: 60px;
+}

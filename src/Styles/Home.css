@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  width: 17%;
+  border: rgb(236, 82, 31);
+  border-style: double;
+  text-align: center;
+}
+.tiles {
+  width: 80%;
+}
+.total {
+  color: rgb(255, 0, 0);
+  font-size: larger;
+  font-weight: 600;
+}

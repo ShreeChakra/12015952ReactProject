@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+.container {
+  border: 2px solid black;
+  margin: 20px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=");
+  background-color: #cccccc;
+}
+.name {
+  margin: 20px;
+  padding: 10px;
+}
+.email {
+  margin: 20px;
+  padding: 10px;
+}
+.complaint {
+  margin: 20px;
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+}
+.button {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #f77c39;
+  border-radius: 15px;
+}
